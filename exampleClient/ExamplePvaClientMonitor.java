@@ -18,9 +18,9 @@ public class ExamplePvaClientMonitor
 
     static void exampleMonitor(PvaClient pva)
     {
-        PvaClientMonitor monitor = pva.channel("exampleDouble").monitor("");
+        PvaClientMonitor monitor = pva.channel("PVRdouble").monitor("");
         PvaClientMonitorData pvaData = monitor.getData();
-        PvaClientPut put = pva.channel("exampleDouble").put("");
+        PvaClientPut put = pva.channel("PVRdouble").put("");
         PvaClientPutData putData = put.getData();
         for(int ntimes=0; ntimes<5; ++ntimes)
         {

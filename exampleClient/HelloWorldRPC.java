@@ -37,7 +37,7 @@ public class HelloWorldRPC
         pvArgument.put("World");
         System.out.println("example channeRPC simple");
         try {
-            RPCClient rpcClient = RPCClientFactory.create("exampleHelloRPC");
+            RPCClient rpcClient = RPCClientFactory.create("helloRPC");
             PVStructure pvResult = rpcClient.request(pvRequest, 2.0);
             System.out.println(pvResult);
         } catch (RPCRequestException e) {

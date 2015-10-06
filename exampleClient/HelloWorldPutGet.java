@@ -31,7 +31,7 @@ public class HelloWorldPutGet
     {
         System.out.println("helloWorldPutGet");
         try {
-            PvaClientChannel channel = pva.channel("exampleHello");
+            PvaClientChannel channel = pva.channel("PVRhelloPutGet");
             PvaClientPutGet putGet = channel.createPutGet();
             putGet.connect();
             PvaClientPutData putData = putGet.getPutData();

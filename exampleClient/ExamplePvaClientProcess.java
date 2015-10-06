@@ -21,7 +21,7 @@ public class ExamplePvaClientProcess
     static void exampleProcess(PvaClient pva)
     {
         System.out.println("example process");
-        PvaClientChannel channel = pva.channel("exampleDouble");
+        PvaClientChannel channel = pva.channel("PVRdouble");
         PvaClientProcess process = channel.createProcess();
         try {
             process.process();

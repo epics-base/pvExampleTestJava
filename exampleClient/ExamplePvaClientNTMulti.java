@@ -133,18 +133,18 @@ public class ExamplePvaClientNTMulti
         PvaClient pva = PvaClient.get();
         int num = 4;
         String[] channelNames = new String[num];
-        channelNames[0] = "double01";
-        channelNames[1] = "string01";
-        channelNames[2] = "doubleArray01";
-        channelNames[3] = "stringArray01";
+        channelNames[0] = "DBRdouble01";
+        channelNames[1] = "DBRstring01";
+        channelNames[2] = "DBRdoubleArray01";
+        channelNames[3] = "DBRstringArray01";
         System.out.println("dbRecord pva");
         example(pva,"pva",channelNames);
         System.out.println("dbRecord ca");
         example(pva,"ca",channelNames);
-        channelNames[0] = "exampleDouble";
-        channelNames[1] = "exampleString";
-        channelNames[2] = "exampleDoubleArray";
-        channelNames[3] = "exampleStringArray";
+        channelNames[0] = "PVRdouble";
+        channelNames[1] = "PVRstring";
+        channelNames[2] = "PVRdoubleArray";
+        channelNames[3] = "PVRstringArray";
         System.out.println("dbRecord pva");
         example(pva,"pva",channelNames);
     }
