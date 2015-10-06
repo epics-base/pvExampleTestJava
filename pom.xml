@@ -173,7 +173,8 @@
                     </goals>
                     <configuration>
                       <sources>
-                        <source>exampleClient</source>
+                        <source>example</source>
+                        <source>shell</source>
                       </sources>
                     </configuration>
                   </execution>

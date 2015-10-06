@@ -2,4 +2,4 @@
 source source
 export CLASSPATH=${CLASSPATH}:${PVEXAMPLETEST}/bin
 env | grep CLASSPATH
-java ExamplePvaClientMultiDouble
+java org.epics.pvExampleTest.exampleClient.ExamplePvaClientMultiDouble

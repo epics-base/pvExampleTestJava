@@ -2,4 +2,4 @@
 source source
 export CLASSPATH=${CLASSPATH}:${PVEXAMPLETEST}/bin
 env | grep CLASSPATH
-java HelloWorldPutGet
+java org.epics.pvExampleTest.exampleClient.HelloWorldPutGet

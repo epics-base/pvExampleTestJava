@@ -5,6 +5,7 @@
  */
 
 
+package org.epics.pvExampleTest.database;
 
 import org.epics.pvdata.factory.*;
 import org.epics.pvdata.pv.*;

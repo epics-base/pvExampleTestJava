@@ -4,6 +4,7 @@
  * in file LICENSE that is included with this distribution.
  */
 
+package org.epics.pvExampleTest.database;
 
 import org.epics.pvdatabase.PVDatabase;
 import org.epics.pvdatabase.PVDatabaseFactory;
