@@ -29,7 +29,7 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>normativeTypesJava</artifactId>
-            <version>5.1.0-SNAPSHOT</version>
+         <version>0.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
